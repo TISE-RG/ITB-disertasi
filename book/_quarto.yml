@@ -1,0 +1,42 @@
+project:
+  type: book
+
+
+# Default metadata; students should edit these
+doc-title: "Judul Tesis / Tugas Akhir"
+student-name: "Nama Lengkap Mahasiswa"
+student-nim: "18xxxxxx"
+program: "Program Studi ..."
+faculty: "Sekolah Teknik Elektro dan Informatika"
+university: "Institut Teknologi Bandung"
+degree: "Sarjana Teknik"
+dissertation-type: "TUGAS AKHIR"
+supervisor-1: "Dr. Pembimbing Satu"
+supervisor-2: "Dr. Pembimbing Dua"
+year: "2025"
+
+book:
+  title: {{< var doc-title >}}
+  
+  date: "11/11/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib  
+format:
+  pdf:
+    pdf-engine: xelatex           # or lualatex if your template suggests
+    documentclass: report         # <-- name of the .cls from the template
+    include-in-header:
+      - partials/tise-itb-header.tex
+    include-before-body:
+      - partials/tise-itb-frontmatter.tex
+    number-sections: true
+    toc: true
+    keep-tex: true                # useful for debugging
+lang: id
+
+

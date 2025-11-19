@@ -1,0 +1,31 @@
+project:
+  title: "judul"
+
+format: 
+  pdf: 
+    documentclass: book
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    fig-caption: true
+    fontsize: 12pt
+    geometry: margin=1in
+    citation-style: apa
+    include-in-header: header.tex
+    include-in-footer: footer.tex
+    include-before-body: before_body.tex
+    include-after-body: after_body.tex.tex
+    latex-engine: xelatex
+    template: template.tex
+    keep-tex: true
+    output-file: "output_judul.pdf"
+    papersize: a4paper
+
+
+lang:  
+  default: id-ID
+
+
+
+
+

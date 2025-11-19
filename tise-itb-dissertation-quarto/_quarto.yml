@@ -1,0 +1,22 @@
+project:
+  type: tise-itb-dissertation
+  title: "TISE-ITB dissertation"
+
+format:
+  tise-itb-dissertation-pdf: default
+
+# Default metadata; students should edit these
+dissertation-title: "Judul Tesis / Tugas Akhir"
+student-name: "Nama Lengkap Mahasiswa"
+student-nim: "18xxxxxx"
+program: "Program Studi ..."
+faculty: "Sekolah Teknik Elektro dan Informatika"
+university: "Institut Teknologi Bandung"
+degree: "Sarjana Teknik"
+dissertation-type: "TUGAS AKHIR"
+supervisor-1: "Dr. Pembimbing Satu"
+supervisor-2: "Dr. Pembimbing Dua"
+year: "2025"
+
+render:
+  - dissertation.qmd

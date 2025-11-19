@@ -1,0 +1,33 @@
+---
+title: "{{< var dissertation-title >}}"
+format:
+  tise-itb-dissertation-pdf: default
+---
+
+# Pendahuluan
+
+Tulis Bab 1 di sini…
+
+## Latar Belakang
+
+...
+
+# Tinjauan Pustaka
+
+...
+
+# Metodologi
+
+...
+
+# Hasil dan Pembahasan
+
+...
+
+# Kesimpulan
+
+...
+
+# Daftar Pustaka
+
+Gunakan sitasi biasa, misalnya [@ref1].

@@ -1,0 +1,14 @@
+{
+  "default.qmd": {
+    "default.html": "a8bee2bd",
+    "default.tex": "ad7d9bbc"
+  },
+  "references.qmd": {
+    "references.html": "5f51a657",
+    "references.tex": "ebd6b9c6"
+  },
+  "summary.qmd": {
+    "summary.html": "1b6ab1b8",
+    "summary.tex": "86e9c3fd"
+  }
+}

@@ -1,0 +1,15 @@
+project:
+  title: "default"
+
+format;
+  pdf:
+    documentclass: report
+    include-in-header:
+      - partials/tise-itb-header.tex
+    include-before-body:
+      - partials/tise-itb-frontmatter.tex
+    number-sections: true
+    toc: true
+    keep-tex: true                # useful for debugging
+lang: id
+

@@ -1,0 +1,11 @@
+---
+format: pdf
+
+dissertation-title: "Judul Disertasi"
+
+
+include-in-body:
+  - 01-pendahuluan.qmd
+  - 02-tinjauan.qmd
+  - references.qmd
+---

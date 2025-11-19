@@ -1,0 +1,47 @@
+% tise-itb-header.tex
+% Map Quarto variables to LaTeX macros expected by tise-itb.cls.
+% Adjust macro names on the LEFT to match your actual class file.
+
+$if(dissertation-title)$
+  \newcommand{\dissertationTitle}{$dissertation-title$}
+$endif$
+
+$if(student-name)$
+  \newcommand{\AuthorName}{$student-name$}
+$endif$
+
+$if(student-nim)$
+  \newcommand{\AuthorNIM}{$student-nim$}
+$endif$
+
+$if(program)$
+  \newcommand{\ProgramStudi}{$program$}
+$endif$
+
+$if(faculty)$
+  \newcommand{\Fakultas}{$faculty$}
+$endif$
+
+$if(university)$
+  \newcommand{\Universitas}{$university$}
+$endif$
+
+$if(degree)$
+  \newcommand{\Gelar}{$degree$}
+$endif$
+
+$if(dissertation-type)$
+  \newcommand{\Jenisdissertation}{$dissertation-type$}
+$endif$
+
+$if(supervisor-1)$
+  \newcommand{\PembimbingSatu}{$supervisor-1$}
+$endif$
+
+$if(supervisor-2)$
+  \newcommand{\PembimbingDua}{$supervisor-2$}
+$endif$
+
+$if(year)$
+  \newcommand{\TahunLulus}{$year$}
+$endif$

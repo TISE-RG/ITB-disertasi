@@ -1,0 +1,30 @@
+project:
+  type: book
+  output-dir: _output
+
+format:
+  pdf:
+    pdf-engine: xelatex           # or lualatex if your template suggests
+    documentclass: report        # <-- name of the .cls from the template
+    include-in-header:
+      - partials/tise-itb-header.tex
+    include-before-body:
+      - partials/tise-itb-frontmatter.tex
+    number-sections: true
+    toc: true
+    keep-tex: true                # useful for debugging
+lang: id
+
+# Default metadata for the thesis; can be overridden in individual qmd
+metadata:
+  thesis-title: "Judul Tugas Akhir"
+  student-name: "Nama Mahasiswa"
+  student-nim: "18xxxxxx"
+  program: "Program Studi Teknik Biomedis"
+  faculty: "Sekolah Teknik Elektro dan Informatika"
+  university: "Institut Teknologi Bandung"
+  degree: "Sarjana Teknik"
+  thesis-type: "TUGAS AKHIR"
+  supervisor-1: "Dr. Pembimbing Satu"
+  supervisor-2: "Dr. Pembimbing Dua"
+  year: "2025"

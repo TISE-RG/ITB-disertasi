@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "Judul"
+  author: "Norah Jones"
+  date: "12/11/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  pdf:
+    documentclass: report
+    toc: true
+    number-sections: true
+    fontsize: 12pt
+    geometry: margin=1in
+    citation-style: apa
+
+
+

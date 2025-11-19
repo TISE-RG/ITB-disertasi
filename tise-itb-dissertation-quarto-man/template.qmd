@@ -1,0 +1,41 @@
+---
+title: "{{< var thesis-title >}}"        # for Quarto’s UI; optional
+format: pdf
+# You can override metadata here if needed
+thesis-title: "Analisis Sistem Sensor Biomedis ..."
+student-name: "Nama Lengkap"
+student-nim: "18320xxx"
+supervisor-1: "Dr. A"
+supervisor-2: "Dr. B"
+year: "2025"
+---
+
+# Pendahuluan
+
+Teks Bab 1 di sini...
+
+## Latar Belakang
+
+...
+
+# Tinjauan Pustaka
+
+...
+
+# Metodologi
+
+...
+
+# Hasil dan Pembahasan
+
+...
+
+# Kesimpulan
+
+...
+
+# Daftar Pustaka
+
+Referensi pakai pandoc-citeproc / quarto:
+Blabla [@some-paper].
+
