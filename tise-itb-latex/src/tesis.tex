@@ -1,0 +1,62 @@
+% tesis.tex
+% =========
+\documentclass[11pt, a4paper, onecolumn, oneside, final]{book}
+
+% Ganti ini sesuai style yang dipakai:
+% - kalau tetap ingin pakai yang lama: \input{eb-itb-thesis.sty}
+% - kalau sudah di-rename:            \input{tise-itb-thesis.sty}
+\input{tise-itb-thesis.sty}
+\makeatletter
+\makeatother
+
+% --- Parameter tunggal ---
+\input{thesis-params}   % <--- semua identitas diambil dari sini
+
+\begin{document}
+
+% --- Konfigurasi dasar judul/penulis ---
+\title{\ThesisTitle}
+\author{%
+  \AuthorName\\
+  NIM : \AuthorNIM
+}
+\date{}  % biasanya kosong
+
+% ================= FRONT MATTER =================
+\frontmatter
+
+% Cover dan lembar pengesahan (pakai parameter)
+\input{frontmatter/000-cover}
+\input{frontmatter/001-approval}
+
+% Di bawah ini contoh lanjutan (opsional) kalau mau meniru if/eb-itb:
+% \input{frontmatter/002-statement}
+% \pagestyle{plain}
+% \input{frontmatter/003-abstract-id}
+% \input{frontmatter/004-abstract-en}
+% \input{frontmatter/005-forewords}
+% \tableofcontents
+% \addcontentsline{toc}{chapter}{DAFTAR ISI}
+% \listoffigures
+% \addcontentsline{toc}{chapter}{DAFTAR GAMBAR}
+% \listoftables
+% \addcontentsline{toc}{chapter}{DAFTAR TABEL}
+
+% ================= MAIN MATTER ==================
+\mainmatter
+
+\include{chapters/01-pendahuluan}
+\include{chapters/02-tinjauan-pustaka}
+\include{chapters/03-metodologi}
+\include{chapters/04-hasil-pembahasan}
+\include{chapters/05-kesimpulan-saran}
+
+% ================= BACK MATTER ==================
+% \appendix
+% \include{chapters/A-lampiran1}
+% \include{chapters/B-lampiran2}
+
+\bibliographystyle{IEEEtran} % atau apa pun yang sesuai
+\bibliography{references}    % references.bib
+
+\end{document}

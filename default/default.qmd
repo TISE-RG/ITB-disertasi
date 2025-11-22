@@ -1,11 +1,13 @@
 ---
 title: "judul"
 
-book:
-    chapters:
-        - summary.qmd
-        - references.qmd
 bibliography: references.bib  
+
+format: 
+    pdf:
+        documentclass: reportt
+        include-in-header: 
+            files: partials/header
 ---
 
 ## Quarto

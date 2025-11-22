@@ -1,0 +1,6 @@
+PWD C:/github3/ITB-disertasi/tise-itb-latex/src
+INPUT c:/texlive/2023/texmf.cnf
+INPUT c:/texlive/2023/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT tesis.tex
+OUTPUT C:/github3/ITB-disertasi/tise-itb-latex/build/tesis.log
